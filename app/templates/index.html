@@ -2,10 +2,9 @@
 
 {% block content %}
 <div>home page: <a href="/">Go to home page</a></div>
-<h1>app er kaaj ekhane</h1>
-
+<br>
 <form action="/encode" method="post" id="form1">
-    <label for="Encoded">Type Normal Text:</label><br>
+    <label for="Encoded">Type Normal Text for encoding:</label><br>
     <input type="text" id="Encoded" name="encode"><br>
 </form>
 <button type="submit" form="form1" value="encode">Encode</button><br>
@@ -14,7 +13,7 @@
 
 <br>
 <form action="/decode" method="post">
-    <label for="Decoded">Type Morse Sentence for decode:</label><br>
+    <label for="Decoded">Decode the Morse Code:</label><br>
     <input type="text" id="Decoded" name="decode"><br><br>
     <input type="submit" value="Decode">
 </form>
